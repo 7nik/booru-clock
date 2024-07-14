@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "kifiranet@gmail.com",
+                "Name": "7nik"
+            }
+        ],
+        "Category": "Date and Time",
+        "Description": "A flip-flop clock with booru digits (girls)",
+        "Icon": "clock",
+        "Id": "com.github.7nik.booru-clock",
+        "Name": "Booru Clock",
+        "Version": "1.0",
+        "Website": "https://github.com/7nik/booru-clock"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "KPackageStructure": "Plasma/Applet"
+}

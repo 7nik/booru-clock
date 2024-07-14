@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Retro Flip Down Clock</title>
+<link rel="stylesheet" type="text/css" href="css/clockstyle.css" />
+<script language="javascript" src="js/jquery-1.4.4.min.js"></script>
+<script language="javascript" src="js/animate.js"></script>
+</head>
+<body id="clock">
+<g:background id="bg" src="back1.png" style="position:absolute; z-index:-1; left:0px; top:0px;"/>
+<div id="HTMLbody">
+    <div id="Hour">
+        <div id="HourUpper">
+			<img id="HourUpperLeft" src="Upper/0.png"/>
+			<img id="HourUpperRight" src="Upper/1.png"/>
+		</div>
+        <div id="HourLower">
+			<img id="HourLowerLeft" src="Lower/0.png"/>
+			<img id="HourLowerRight" src="Lower/1.png"/>
+		</div>
+    </div>
+    <div id="Minute">
+        <div id="MinuteUpper">
+			<img id="MinuteUpperLeft" src="Upper/2.png"/>
+			<img id="MinuteUpperRight" src="Upper/3.png"/>
+		</div>
+        <div id="MinuteLower">
+			<img id="MinuteLowerLeft" src="Lower/2.png"/>
+			<img id="MinuteLowerRight" src="Lower/3.png"/>
+		</div>
+    </div>
+    <div id="Second">
+        <div id="SecondUpper">
+			<img id="SecondUpperLeft" src="Upper/4.png"/>
+			<img id="SecondUpperRight" src="Upper/5.png"/>
+		</div>
+        <div id="SecondLower">
+			<img id="SecondLowerLeft" src="Lower/4.png"/>
+			<img id="SecondLowerRight" src="Lower/5.png"/>
+		</div>
+    </div>
+    <div id="HourBack">
+        <div id="HourUpperBack">
+			<div id="HourULB">
+				<img id="HourUpperLeftBack" src="Upper/0.png"/>
+			</div>
+			<div id="HourURB">
+				<img id="HourUpperRightBack" src="Upper/1.png"/>
+			</div>
+		</div>
+        <div id="HourLowerBack">
+			<div id="HourLLB">
+				<img id="HourLowerLeftBack" src="Lower/0.png"/>
+			</div>
+			<div id="HourLRB">
+				<img id="HourLowerRightBack" src="Lower/1.png"/>
+			</div>
+		</div>
+    </div>
+    <div id="MinuteBack">
+        <div id="MinuteUpperBack">
+			<div id="MinuteULB">
+				<img id="MinuteUpperLeftBack" src="Upper/2.png"/>
+			</div>
+			<div id="MinuteURB">
+				<img id="MinuteUpperRightBack" src="Upper/3.png"/>
+			</div>
+		</div>
+        <div id="MinuteLowerBack">
+			<div id="MinuteLLB">
+				<img id="MinuteLowerLeftBack" src="Lower/2.png"/>
+			</div>
+			<div id="MinuteLRB">
+				<img id="MinuteLowerRightBack" src="Lower/3.png"/>
+			</div>
+		</div>
+    </div>
+    <div id="SecondBack">
+        <div id="SecondUpperBack">
+			<div id="SecondULB">
+				<img id="SecondUpperLeftBack" src="Upper/4.png"/>
+			</div>
+			<div id="SecondURB">
+				<img id="SecondUpperRightBack" src="Upper/5.png"/>
+			</div>
+		</div>
+        <div id="SecondLowerBack">
+			<div id="SecondLLB">
+				<img id="SecondLowerLeftBack" src="Lower/4.png"/>
+			</div>
+			<div id="SecondLRB">
+				<img id="SecondLowerRightBack" src="Lower/5.png"/>
+			</div>
+		</div>
+    </div>
+</div>
+</body>
+</html>
