@@ -6,4 +6,9 @@ The only option - show the seconds.
 
 # Installation
 
-Follow [this guide](https://visualskins.com/guide).
+1. Download and install [Rainmeter](https://www.rainmeter.net/)
+2. On the [Releases page](https://github.com/7nik/booru-clock/releases) download
+the `Booru.Clock.rmskin` file and double-click it.
+
+
+Or use [this guide](https://visualskins.com/guide).

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <gadget>
-  <name>Konachan clock</name>
+  <name>Booru clock</name>
   <namespace>windows.sdk</namespace>
-  <version>0.1.1.1</version>
+  <version>1.0</version>
   <author name="7nik">
     <info url="^___^" />
     <logo src="css/logo.jpg" />
   </author>
   <copyright></copyright>
-  <description>Flip Down Clock with Konachan girls</description>
+  <description>Flip Down Clock with Booru girls</description>
   <icons>
     <icon height="48" width="48" src="css/icon.PNG" />
   </icons>

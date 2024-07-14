@@ -8,6 +8,11 @@ added settings to hide the seconds and change the clock size.
 
 # Installation
 
+On the [Releases page](https://github.com/7nik/booru-clock/releases) download
+the `Booru.Clock.gadget` file and double-click it.
+
+Then use the desktop's context menu to add the gadget to the desktop.
+
 ### Ability to install Windows Gadgets on a recent version of Windows
 
 Their support was removed for a reason, but if you really want it, install
